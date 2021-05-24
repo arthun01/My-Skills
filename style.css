@@ -1,0 +1,277 @@
+*{
+    font-style: sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    animation: bnt 2s ease;
+}
+
+@keyframes bnt{
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.inst{
+    display: block;
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+    font-family: LEMON MILK;
+    font-size: .8em;
+    text-align: center;
+    color: white;
+    background: #3fa37e;
+    background-size: 500%;
+    background-position: 50% 100%;
+    border-radius: 6px;
+    transition: .4s;
+    margin-bottom: 8px;
+}
+
+.inst:hover{
+    border: 1px solid white;
+    color: #3fa37e;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+    background: white;
+}
+
+
+.yout{
+    display: block;
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+    font-family: LEMON MILK;
+    font-size: .8em;
+    text-align: center;
+    color: white;
+    background: #3fa37e;
+    background-size: 500%;
+    background-position: 50% 100%;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.yout:hover{
+    border: 1px solid white;
+    color: #3fa37e;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+    background: white;
+}
+
+.left{
+    margin: 50px 0;
+    margin-left: 20%;
+    width: 30%;
+    height: 60%;
+    animation: left 2s ease;
+}
+
+@keyframes left{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+.pleft{
+    padding: 60px 10px;
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    color: white;
+}
+
+.fim{
+    width: 100%;
+    height: 100%;
+    background: #3fa37e;
+    margin: 0 auto;
+    display: table;
+
+}
+
+.fim h1{
+    margin: 50px 100px;
+    font-size: 2.2em;
+    font-family: LEMON MILK, sans-serif;
+    color: #fff;
+    text-align: center;
+    animation: h1a 2s ease;
+}
+
+@keyframes h1a{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fim p{
+    font-size: 1.1em;
+    font-family: Oswald;
+    letter-spacing: .6px;
+    color: #1a181c;
+    margin: -40px auto;
+    text-align: center;
+    animation: pa 2s ease;
+}
+
+@keyframes pa{
+    0%{
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+h2{
+    font-family: Pattaya, sans-serif;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    animation: h2a 2s ease;
+}
+
+@keyframes h2a{
+    0%{
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h3{
+    font-family: Oswald, sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+
+body{
+    background: #42895d;
+}
+
+.skills{
+    width: 60%;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #3fa37e;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #3fa37e;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #bcf7da;
+}
+
+
+.html{
+    width: 40%;
+    animation: html 2s ease;
+}
+
+.css{
+    width: 30%;
+    animation: css 2s ease;
+}
+
+.python{
+    width: 10%;
+    animation: python 2s ease;
+}
+
+.gms{
+    width: 50%;
+    animation: gms 2s ease;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+        transform: trasnlateX(20px);
+    }
+    
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 30%;
+    }
+}
+
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes gms{
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 50%;
+    }
+}
